@@ -1,37 +1,46 @@
-<div align="center">
-
 📱 NetHunter Pro Setup
+
+<div align="center">
 
 Ultimate setup & optimization script for Kali NetHunter Pro on the PinePhone
 
-<p>
-  <a href="https://github.com/wickednull/NetHunter-Pro-Setup">
-    <img src="https://img.shields.io/github/stars/wickednull/NetHunter-Pro-Setup?style=for-the-badge&logo=github" />
-  </a>
-  <a href="https://github.com/wickednull/NetHunter-Pro-Setup/network/members">
-    <img src="https://img.shields.io/github/forks/wickednull/NetHunter-Pro-Setup?style=for-the-badge&logo=github" />
-  </a>
-  <a href="https://github.com/wickednull/NetHunter-Pro-Setup/issues">
-    <img src="https://img.shields.io/github/issues/wickednull/NetHunter-Pro-Setup?style=for-the-badge" />
-  </a>
-  <img src="https://img.shields.io/github/license/wickednull/NetHunter-Pro-Setup?style=for-the-badge">
-</p>
-<p>
-<img src="https://img.shields.io/badge/Kali-NetHunter-557C94?style=flat-square&logo=kalilinux&logoColor=white">
+<a href="https://github.com/wickednull/NetHunter-Pro-Setup">
+  <img src="https://img.shields.io/github/stars/wickednull/NetHunter-Pro-Setup?style=for-the-badge&logo=github" />
+</a>
+<a href="https://github.com/wickednull/NetHunter-Pro-Setup/network/members">
+  <img src="https://img.shields.io/github/forks/wickednull/NetHunter-Pro-Setup?style=for-the-badge&logo=github" />
+</a>
+<a href="https://github.com/wickednull/NetHunter-Pro-Setup/issues">
+  <img src="https://img.shields.io/github/issues/wickednull/NetHunter-Pro-Setup?style=for-the-badge" />
+</a>
+<a href="https://github.com/wickednull/NetHunter-Pro-Setup/blob/main/LICENSE">
+  <img src="https://img.shields.io/github/license/wickednull/NetHunter-Pro-Setup?style=for-the-badge" />
+</a>
+<img src="https://img.shields.io/github/last-commit/wickednull/NetHunter-Pro-Setup?style=flat-square">
+<img src="https://img.shields.io/github/repo-size/wickednull/NetHunter-Pro-Setup?style=flat-square">
+<img src="https://img.shields.io/github/commit-activity/m/wickednull/NetHunter-Pro-Setup?style=flat-square">
+<img src="https://img.shields.io/github/languages/top/wickednull/NetHunter-Pro-Setup?style=flat-square">
+<br>
+<img src="https://img.shields.io/badge/Kali-NetHunter%20Pro-557C94?style=flat-square&logo=kalilinux&logoColor=white">
 <img src="https://img.shields.io/badge/PINE64-PinePhone-90C53F?style=flat-square">
-<img src="https://img.shields.io/badge/Architecture-ARM64-0091BD?style=flat-square&logo=arm">
+<img src="https://img.shields.io/badge/Architecture-ARM64-0091BD?style=flat-square&logo=arm&logoColor=white">
 <img src="https://img.shields.io/badge/Linux-Systemd-FCC624?style=flat-square&logo=linux&logoColor=black">
 <img src="https://img.shields.io/badge/Bash-Automation-4EAA25?style=flat-square&logo=gnubash&logoColor=white">
-<img src="https://img.shields.io/badge/Status-Active-success?style=flat-square">
-</p>
-
-⸻
+<img src="https://img.shields.io/badge/Platform-Mobile%20Linux-success?style=flat-square">
+<img src="https://img.shields.io/badge/Maintained-Yes-blue?style=flat-square">
+┌──────────────────────────────────────────────────────────────┐
+│                    NETHUNTER PRO SETUP                       │
+│                                                              │
+│   PERFORMANCE • BATTERY • SECURITY • AUTOMATION • MOBILE     │
+└──────────────────────────────────────────────────────────────┘
 
 ⚡ One script. A fully configured PinePhone.
 
-Stop wasting time manually installing packages, configuring services, tweaking battery settings, enabling compressed memory, hardening SSH, and setting up your workspace every time you flash NetHunter.
+Stop wasting time manually updating packages, configuring services, tuning battery life, enabling compressed memory, hardening SSH, and setting up your workspace every time you flash NetHunter.
 
-NetHunter Pro Setup automates the entire process and transforms a fresh Kali NetHunter Pro installation into a polished mobile Linux workstation ready for development, research, and authorized security testing.
+NetHunter Pro Setup automates the entire process, transforming a fresh Kali NetHunter Pro installation into a polished mobile Linux workstation ready for development, research, and authorized security testing.
+
+Created by wickednull
 
 </div>
 
@@ -42,20 +51,22 @@ NetHunter Pro Setup automates the entire process and transforms a fresh Kali Net
 🚀 System Preparation
 
 * 📦 Fully updates Kali NetHunter Pro
-* 🔄 Performs full system upgrades
+* 🔄 Performs complete system upgrades
 * 🧹 Removes obsolete packages
 * 🗂 Cleans package cache
-* 📜 Creates installation logs
+* 📜 Generates installation logs
+* 📁 Creates an organized workspace
 
 ⸻
 
 ⚡ Performance
 
 * 🧠 Enables ZRAM compressed swap
-* 💾 Enables automatic fstrim for eMMC
-* 📊 Installs btop
-* 📈 Creates custom system status tools
-* ⚙️ Optimized shell aliases
+* 💾 Enables scheduled fstrim for eMMC longevity
+* 📊 Installs btop system monitor
+* 📈 Adds custom nh-status system diagnostics
+* ⚙️ Configures useful shell aliases
+* 🐍 Creates an isolated Python virtual environment
 
 ⸻
 
@@ -63,7 +74,7 @@ NetHunter Pro Setup automates the entire process and transforms a fresh Kali Net
 
 * 🔋 Installs and configures TLP
 * 📡 Wi-Fi power saving
-* 🔌 Runtime power management
+* 🔌 Runtime device power management
 * 🎧 Audio power optimization
 * 🔄 Automatic battery profile loading
 
@@ -71,17 +82,17 @@ NetHunter Pro Setup automates the entire process and transforms a fresh Kali Net
 
 🔐 Security
 
-* 🛡 SSH hardening
-* 🚫 Fail2ban protection
+* 🛡 Hardened OpenSSH configuration
+* 🚫 Fail2ban brute-force protection
 * 🔑 Safer SSH defaults
-* 📝 System logging
+* 📝 Comprehensive logging
 * 📡 Secure remote administration
 
 ⸻
 
 🧰 Development Environment
 
-Automatically installs common Linux development tools including:
+Automatically installs common Linux development tools:
 
 * Git
 * Python
@@ -101,13 +112,13 @@ Automatically installs common Linux development tools including:
 
 📡 Networking & Security Tools
 
-Includes many commonly used tools found in mobile security workflows:
+Includes many commonly used tools for Linux administration and authorized security testing:
 
 * Nmap
 * Aircrack-ng
 * Bettercap
 * Hashcat
-* John
+* John the Ripper
 * Hydra
 * SQLMap
 * Gobuster
@@ -124,7 +135,7 @@ Includes many commonly used tools found in mobile security workflows:
 
 📁 Workspace
 
-The script automatically creates a clean workspace.
+The script automatically creates:
 
 ~/Tools
 ~/Projects
@@ -145,7 +156,7 @@ cd NetHunter-Pro-Setup
 chmod +x nethunter-setup.sh
 sudo ./nethunter-setup.sh
 
-Reboot afterwards:
+Reboot after installation:
 
 sudo reboot
 
@@ -154,20 +165,20 @@ sudo reboot
 📊 Included Commands
 
 Command	Description
-nh-status	Full system information
+nh-status	Complete system information
 btop	Resource monitor
-update	Update the system
+update	Update and upgrade the system
 cleanup	Remove unused packages
 trim	Run eMMC TRIM
-zram-status	Display compressed swap
+zram-status	Display ZRAM information
 ssh-bans	View Fail2ban status
-python-nh	Activate Python environment
+python-nh	Activate the Python environment
 
 ⸻
 
 🖥 Screenshot
 
-Add screenshots of your PinePhone here once the project is complete.
+Add screenshots of your PinePhone once the project is complete.
 
 ┌────────────────────────────────────────────┐
 │     NetHunter Pro PinePhone Ready          │
