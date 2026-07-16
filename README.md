@@ -176,10 +176,6 @@ python-nh	Activate the Python environment
 
 ⸻
 
-🖥 Screenshot
-
-Add screenshots of your PinePhone once the project is complete.
-
 ┌────────────────────────────────────────────┐
 │     NetHunter Pro PinePhone Ready          │
 │                                            │
